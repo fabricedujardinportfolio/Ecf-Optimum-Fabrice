@@ -56,7 +56,7 @@ Séance de yoga (5000/s)
 - Créer les offres voulue dans les custom post type "Salle musculation", "Yoga", "Cours collectifs", "Cours particuliers"
 
 - Se rendre dans les extension de wordpress 
-- Installer le plugin "resa events plugin ", "Events" ,"contacts plugin"
+- Installer les plugin "resa events plugin ", "Events" ,"contacts plugin"
 
 - Installer les shortCodes du plugin  "contacts plugin" sur la page contact 
 ``` 
