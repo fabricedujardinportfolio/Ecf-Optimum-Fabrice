@@ -85,6 +85,6 @@ Pour voir la date des réservation possible il existe un code court pour chaque 
 [show_particuliers_date]
 ```
 - Définir sur la page "les offres" et "Les cours" leurs modéles qui porte leur nom.
-
+![Capture d’écran (74)](https://user-images.githubusercontent.com/44850811/140200130-ddf2443b-9070-4845-95fe-319ad69be336.png)
 
 
