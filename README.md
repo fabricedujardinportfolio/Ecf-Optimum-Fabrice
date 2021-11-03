@@ -36,6 +36,7 @@ Séance de yoga (5000/s)
 	endif;
 ?>
 ``` 
+![Capture d’écran (70)](https://user-images.githubusercontent.com/44850811/140199161-1653f108-ae94-4cf1-84c4-347cbc3c20fd.png)
 
 - Intaller les extensions fakerPress et The Post Grid
 - Créer les pages Accueil ,Sportives ,Les offres ,Les cours ,Réservation ,Contact
