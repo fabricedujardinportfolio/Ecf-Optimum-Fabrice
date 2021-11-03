@@ -25,10 +25,6 @@ Séance de yoga (5000/s)
 ``` 
 //Affichage sur les pages
 <?php
-	if (is_page('culturelles')) :
-		echo "Catégorie : <strong>culturelles</strong>";
-		echo do_shortcode('[the-post-grid id="23" title="Culturelle page"]');
-	endif;
 	if (is_page('sportives')) :
 	    echo "Catégorie : <strong>sportives</strong>";
 	    echo do_shortcode('[the-post-grid id="33" title="Sport page"]');
