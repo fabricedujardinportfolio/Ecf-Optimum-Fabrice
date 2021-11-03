@@ -32,7 +32,20 @@ Séance de yoga (5000/s)
 ?>
 ``` 
 ![Capture d’écran (70)](https://user-images.githubusercontent.com/44850811/140199161-1653f108-ae94-4cf1-84c4-347cbc3c20fd.png)
+``` 
+<aside class="site__sidebar">
+		<h2>Les dernier article sur le sport</h2>
+		<ul>
+		<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  Start -->
+		<?php dynamic_sidebar('sidebar-front-page-widget-area'); ?>
+		<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  END -->
 
+		<!-- Contenue afficher par un echo d'un shortcode Start-->
+		<?php echo do_shortcode('[the-post-grid id="71" title="All post"]'); ?>
+		<!-- Contenue afficher par un echo d'un shortcode END-->
+		</ul>
+</aside>
+``` 
 - Intaller les extensions fakerPress et The Post Grid
 - Créer les pages Accueil ,Sportives ,Les offres ,Les cours ,Réservation ,Contact
 - Créer la catégorie "sportives"
