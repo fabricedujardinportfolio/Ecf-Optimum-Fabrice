@@ -5,7 +5,7 @@ Ecf cci pour le plugin de réservation
 ## Demande client :
 La salle de sport “OPTIMUM” veut refaire son site internet, le directeur Monsieur Ga souhaite moderniser son site en ajoutant un module de réservation pour les différents cours de sport et autres services comme les séances de yoga.
 
-Le site permettra la réservation des services suivants :
+Le site devra permettre la réservation des services suivants :
 
 Accès à la salle de musculation (9000/m - 110000/a)
 Cours particuliers
