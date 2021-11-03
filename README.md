@@ -22,7 +22,7 @@ Séance de yoga (5000/s)
 - Installer correctement le théme fournis avec le plugin 
 - L'affichage de la page accueil et des sidebar de page en générale se feront par des "do_shortcode"
 
-
+![image](https://user-images.githubusercontent.com/44850811/140199380-e6c331e8-b7f2-422d-b5c0-702c1db779b5.png)
 ``` 
 //Affichage sur les pages
 <?php
