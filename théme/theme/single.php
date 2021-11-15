@@ -37,13 +37,13 @@
         </div>
         <!-- Content du post END -->
         <!-- Commentaire du post start -->
-        <div class="container">
+        <!-- <div class="container">
           <?php comments_template(); // Par ici les commentaires 
           ?>
-        </div>
+        </div> -->
         <!-- Commentaire du post END -->
         <!-- AVIS du post start -->
-        <div class="container">
+        <!-- <div class="container">
           <p>
             <strong>Avis :</strong>
             <?php echo get_post_meta(get_the_ID(), 'avis', true); ?>
@@ -60,7 +60,8 @@
               <?php echo get_post_meta(get_the_ID(), 'moins', true); ?>
             </div>
           </div>
-        </div>
+        </div> -->
+      </div>
         <!-- AVIS du post END -->
     </article>
     <!-- article END -->
