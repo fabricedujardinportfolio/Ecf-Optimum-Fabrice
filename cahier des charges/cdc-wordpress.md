@@ -28,7 +28,7 @@ Les clients qui réservent des cours pendant leur journée de travail ou sur le 
 <p>
 Monsieur Ga souhaite conserver le rôle premier du site qui est d’informer et de présenter la salle de sport au travers de photos et textes pouvant être vus sur les moteurs de recherche et réseaux sociaux.
 </p>
-<p><strong>Exemple : https://www.lemonde.fr/</strong></p>
+<p><strong>Exemple : https://www.fitnesspark.fr/</strong></p>
 
 ## B. 2. WIREFRAME ET MAQUETTAGE :
 
