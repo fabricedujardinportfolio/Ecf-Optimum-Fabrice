@@ -1,4 +1,4 @@
-# Le Pays - Cahier des charges
+# Optimum - Cahier des charges
 
 -   A.	1. Les objectifs du site 
 -   A.	2. Les cibles 
@@ -41,11 +41,13 @@ Monsieur Ga souhaite conserver le rôle premier du site qui est d’informer et 
 - • Une page « les offres »
 - • Une page « les cours »
 - • Une page « Réservation »
-- • Une page « »contact »
+- • Une page « contact »
 
 
 
 ## C. SPECIFICITES ET LIVRABLES :
+
+Afin d'améliorer le SEO du site le thème sera capable de recevoir des articles sur le sport afin de référencer au mieux les photos à condition que ces articles soie catégorisée comme tel "sportives".
 
 ## C. 1. CONTRAINTES TECHNIQUES :
 
@@ -84,7 +86,7 @@ Créer la taxonomie du site. Elle devra permettre de naviguer sur les contenus d
 
 ## C.	3. LE PLANNING :
 
-<p>3 jours de création pour le Template et l’installation du CMS.</p>
+<p>3 jours de création pour le Template et le plugin ainsi que l’installation du CMS.</p>
 
 
 
