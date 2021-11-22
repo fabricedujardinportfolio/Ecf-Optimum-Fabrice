@@ -38,9 +38,9 @@
         <!-- Content du post END -->
         <!-- Commentaire du post start -->
         <!-- <div class="container">
-          <?php comments_template(); // Par ici les commentaires 
-          ?>
+          
         </div> -->
+        <!-- // Par ici les commentaires -->
         <!-- Commentaire du post END -->
         <!-- AVIS du post start -->
         <!-- <div class="container">
