@@ -81,7 +81,95 @@ function add_plugin_to_admin_events()
 		echo "</div>";
 	}
 
-	add_menu_page('Toutes les réservations', 'Toutes les réservations', 'manage_options', 'events-plugin', 'event_content');
+	add_menu_page('Toutes les réservations', 'Toutes les réservations', 'manage_options', 'events-plugins', 'event_content');
+	
+	function resa_form()
+	{
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'reservation_events';		
+		$table_namePost = $wpdb->prefix . 'posts';
+		$events = $wpdb->get_results("SELECT * FROM $table_name ",ARRAY_A);
+		$eventsPoststypeYogas = $wpdb->get_results("SELECT * FROM $table_namePost WHERE post_type = 'yoga' OR post_type = 'sallemusculation' OR post_type = 'courscollectifs' OR post_type = 'coursparticuliers' ",ARRAY_A);
+
+		if (isset($_POST['resa'])) {
+			$first_name = sanitize_text_field($_POST["first_name"]);
+			$last_name = sanitize_text_field($_POST["last_name"]);
+			$phone = sanitize_text_field($_POST["phone"]);
+			$age = esc_textarea($_POST["age"]);
+			$eventsName = sanitize_text_field($_POST["events"]);
+			$horraire = sanitize_text_field($_POST["horraire"]);
+			
+			// var_dump($_POST);
+			// // var_dump($horraire);
+			if ($first_name != '' && $last_name != '' && $phone  != '' && $age  != '' && $eventsName  != '') {
+				global $wpdb;
+	
+				$table_name = $wpdb->prefix . 'reservation_events';
+	
+				$wpdb->insert(
+					$table_name,
+					array(
+						'first_name' => $first_name,
+						'last_name' => $last_name,
+						'phone' => $phone,
+						'age' => $age,
+						'cours' => $eventsName,
+						'horraire' => $horraire,
+	
+					)
+				);
+	
+				echo "<h4>Merci! Vous êtes inscrit à ce cours.</h4>";
+			}
+		}
+		
+		echo"<div class='d-flex'>";
+		echo"<div class='row'>";
+		echo"<p>La réservation</p>";		
+		echo "<form class='col-8 mx-auto' method='POST'>";
+		echo "<div class='input-group mb-3'>";
+		echo "<span class='input-group-text'>Nom</span>";
+		echo "<input class='form-control'  type='text' name='last_name' placeholder='Nom de famille' required>";
+		echo "</div>";	
+		echo "<span class='input-group-text'>Prénom</span>";
+		echo "<input class='form-control' type='text' name='first_name' placeholder='Prénom' required>";
+		echo "</div>";	
+		echo "<div class='input-group mb-3'>";
+		echo "<span class='input-group-text'>Téléphone</span>";
+		echo "<input class='form-control'  type='tel' name='phone' placeholder='' required>";
+		echo "</div>";
+		echo"<div>";
+		echo"<select name='events' id='events-select' required>";
+		echo"<option value='' >--Please choose an option--</option>";
+		foreach ($eventsPoststypeYogas as $eventsPoststypeYoga) {
+			$stack1 = array();
+			array_push($stack1, $eventsPoststypeYoga['post_title']);
+			$postype = $eventsPoststypeYoga['post_title'];
+			echo"<option value='$postype'>$postype</option>";
+			}
+		echo"</select>";
+		echo"</br>";
+		echo"</br>";
+		echo"</div>";
+		echo "<div class='input-group mb-3'>";
+		echo "<input class='form-control'  name='age' placeholder='Âge' required>";
+		echo "<span class='input-group-text'>Âge</span>";
+		echo "</div>";
+		echo "<div class='input-group mb-3'>";
+		echo "<select class='form-select p-2 mb-3' aria-label='Default select example' name='horraire'>
+			<option selected>Choisie ton crénaux horaire</option>
+			<option value='10h à 12h'>10h à 12h</option>
+			<option value='13h à 15h'>13h à 15h</option>
+			<option value='16h à 18h'>16h à 18h</option>
+		</select>";
+		echo "</div>";
+		echo"<button type='reservation' name='resa'>Click Me!</button>";	
+		echo "</form>";	
+		echo"</div>";		
+		echo"</div>";
+	}
+	
+	add_submenu_page('events-plugins','event', 'Ajouter', 'edit_posts','addreservation_event' ,'resa_form');
 }
 
 add_action('admin_menu', 'add_plugin_to_admin_events');
