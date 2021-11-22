@@ -64,6 +64,18 @@ Afin d'améliorer le SEO du site le thème sera capable de recevoir des articles
 
 ## C. 2. LE CONTENU DE VOTRE SITE WORDPRESS :
 
+####  USER STORY :
+-	Client :
+    o	En tant que client, je souhaite réserver sur le site des offres ou encore des cours en relation avec les offres de l’entreprise.
+-	Propriétaire du site :
+    o	En tant que propriétaire du site, je souhaite accéder au suivi des demandes de réservations sur les offres et cours de l’entreprise.
+    o	En tant que propriétaire du site, je souhaite rajouter des offres ou cours afin qu’il paraisse sur le site.
+    o	En tant que propriétaire du site, je souhaite que le site soit correctement référencé afin qu’il paraisse dans les premiers résulta de recherche.
+    o	En tant que propriétaire du site, je souhaite pouvoir être contacter depuis le site afin que les clients qui en des difficultés de déplacements puisse l’informer.
+
+#### SPECIFICITES :
+Pour de subvenir au besoin de présence SEO du site, un blog de contenue d’article sera utilisé afin d’amélioré la crédibilité du site.
+
 ### Pour répondre à la demande du client, plusieurs tâches doivent être réaliser :
 <p>
 Nous devrons Créer un accès rapide aux différents évènements à venir sur les pages du site. 
