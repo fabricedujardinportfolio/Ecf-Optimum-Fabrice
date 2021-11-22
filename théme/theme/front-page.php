@@ -22,7 +22,8 @@
 		</strong>
 		<aside class="container p-3 mb-3 mt-2 border ">
 			<!-- Contenue wordpress start -->
-			<?php the_content(); ?>
+			<?php the_excerpt(); ?>
+			<a href="<?php the_permalink(); ?>" class="post__link">Lire la suite</a>
 			<!-- Contenue wordpress END -->
 		</aside>
 		<aside class="site__sidebar">

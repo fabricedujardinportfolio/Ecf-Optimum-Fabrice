@@ -11,7 +11,7 @@
       <!-- INFO du post start -->
       <div class="post__meta d-flex pt-3 container">
         <div class="col-2"></div>
-        <div class="col-8 d-flex bg-light pt-3">
+        <!-- <div class="col-8 d-flex bg-light pt-3">
           <div class="px-5">
             <?php echo get_avatar(get_the_author_meta('ID'), 120); ?>
           </div>
@@ -26,7 +26,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- INFO du post END -->
       <div class="col-2"></div>
