@@ -19,7 +19,7 @@ function contact_database() {
 	$charset_collate = $wpdb->get_charset_collate();
 
 	$sql = "CREATE TABLE IF NOT EXISTS $table_name (
-		id mediumint(9) NOT NULL AUTO_INCREMENT,
+		id mediumint(100) NOT NULL AUTO_INCREMENT,
 		first_name varchar(55) NOT NULL,
 		last_name varchar(55) NOT NULL,
 		phone VARCHAR(20) NOT NULL,
@@ -105,6 +105,7 @@ function contact_form() {
 
 	// Contact
 	echo "<form class='col-8 mx-auto' method='POST'>";
+	echo "<h1 class='title text-center'>Contacter le site</h1>";
 	echo"<div class='input-group mb-3'>";
 	echo"<span class='input-group-text'>Prénom</span>";
 	echo"<input class='form-control' type='text' name='first_name' placeholder='Prénom' required>";

@@ -74,7 +74,7 @@ add_action('save_post', 'events_post_save_meta');
 function add_event_post_type($query)
 {
 	if (is_home() && $query->is_main_query()) {
-		$query->set('post_type', array('post', 'events'));
+		$query->set('post_type', array('post', 'yoga'));
 		return $query;
 	}
 }

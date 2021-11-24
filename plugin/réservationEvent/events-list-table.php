@@ -49,6 +49,7 @@ class ReservationListTable extends WP_List_Table
 			'age' => 'Age',
 			'cours' => 'Objet',
 			'horraire' => 'Tranche horraire',
+			'info' => 'Autre information (Abonement...)',
 		);
 		return $columns;
 	}
@@ -59,6 +60,7 @@ class ReservationListTable extends WP_List_Table
 			'id' => array('id', false),
 			'cours' => array('cours', false),
 			'horraire' => array('horraire', false),
+			'info' => array('info', false),
 		);
 	}
 
@@ -83,6 +85,7 @@ class ReservationListTable extends WP_List_Table
 			case 'phone':
 			case 'age':
 			case 'cours':
+			case 'info':
 			case 'horraire':
 				return $item[$column_name];
 			default:
