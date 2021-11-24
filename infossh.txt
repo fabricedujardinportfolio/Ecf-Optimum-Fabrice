@@ -1,0 +1,26 @@
+hote : fabrice.devweb.cfa.nc/
+identifiant : fabrice
+
+MDP : devweb2022
+
+DEPUIS LE DOSSIER LANCER GIT BASH 
+scp -r fichier.js fabrice@fabrice.ssh.cfa.nc:~/apps/fabrice/public/
+
+PHP VERSION : PHP 8.0.3 (cli) (built: May 20 2012 07:00:00) ( NTS )
+
+MYSQL VERSION : mysql  Ver 14.14 Distrib 5.7.33, for Linux (x86_64) using  EditLine wrapper
+
+mdp : 123456789
+
+WORDPRESS :
+ID : fabrice-admin
+MDP : [f@%v7yY0$L&slevv=Z#z
+
+WORDPRESS ECF 4 
+id : fabrice-admin
+MDP : lhyQFBLeX8eWUWsW3S
+
+id : fabrice-admin-new
+MDP : rMb9k@h#cU2M%SKqZNiU!75R
+	
+FTP : fabrice@fabrice.devweb.cfa.nc port:22
