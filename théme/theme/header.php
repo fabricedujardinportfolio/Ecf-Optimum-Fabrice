@@ -140,7 +140,7 @@
             <h1 style="font-family: Pineforest; text-transform: uppercase; color:white;" >
               Optimum
             </h1>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/header.PNG" alt="" width="150" height="150" class="m-auto">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/header.png" alt="" width="150" height="150" class="m-auto">
           </div>
         </div>
       </div>

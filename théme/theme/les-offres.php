@@ -27,7 +27,7 @@ $custom_args2 = array(
             <?php if ($custom_query->have_posts()) : ?>
                 <div class="col-2"></div>
                 <div class="col-8 text-center" style="align-self: center;">
-                <img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/Yoga-conseils-astuces-seances.jpg" alt="" srcset="">
+                <img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/Yoga-conseils-astuces-seances.jpg" alt="" srcset="">
                 <h2>POUR QUOI ?</h2>
                 <p>
                 Quand on pratique la musculation, c'est généralement pour gagner en masse et en force. Ajouter une séance de yoga avant ou après l'entraînement de musculation permet d'étirer les muscles pour en optimiser la croissance.
@@ -52,7 +52,7 @@ $custom_args2 = array(
             <?php if ($custom_query2->have_posts()) : ?>
                 <div class="col-2"></div>
                 <div class="col-8 text-center " style="align-self: center;">
-                <img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/Espace-musculation-n°1.jpg" alt="" srcset="">
+                <img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/Espace-musculation-n°1.jpg" alt="" srcset="">
                 <h2>POUR QUOI ?</h2>
                 <p>
                 - Développer ta croissance musculaire et ta force physique. Obtenir une plus grande résistance et des muscles plus toniques, plus saillants.

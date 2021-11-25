@@ -44,7 +44,7 @@
 				endif;
 				if (is_page('sportives')) :
 					echo "Catégorie : <strong>sportives</strong>";
-					echo do_shortcode('[the-post-grid id="33" title="Sport page"]');
+					echo do_shortcode('[the-post-grid id="84" title="Sport page"]');
 				endif;
 				?>
 				<!-- Content dynamique Start -->

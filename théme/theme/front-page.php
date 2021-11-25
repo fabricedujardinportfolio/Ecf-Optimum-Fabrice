@@ -36,17 +36,17 @@
 			</p>
 			</div>
 			<div class="col-6">
-				<img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/Visuels_Dispositif.png" alt="fitness" >
+				<img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/Visuels_Dispositif.png" alt="fitness" >
 			</div>
 		</div>
 		<div class="container p-3">
-			<img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/Capture-decran-78.png" alt="" srcset="">
+			<img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/Capture-decran-78.png" alt="" srcset="">
 		</div>
 		<div class="container  text-center p-3">
 			<h2 class="text-center">HOME PARK</h2>
 			<p  class="text-center">Tu souhaites te dépasser où tu veux et quand tu veux ? </p>
 			<p  class="text-center">Atteins tes objectifs et entraîne toi avec nos lives et vidéos à la demande en accès illimité sur smartphone, tablette, ordinateur et caste même sur ta TV !</p>
-			<a href="http://localhost/Ecf-Optimum-Fabrice/wordpress/salle-musculation/salle-1/"  class="text-center m-auto"><button >JE DECOUVRE</button></a>
+			<a href="http://fabrice.devweb.cfa.nc/wordpress/salle-musculation/acces-a-la-salle-de-musculation-9000-m-110000-a/"  class="text-center m-auto"><button >JE DECOUVRE</button></a>
 		</div>
 		</aside>
 		<aside class="site__sidebar">
@@ -57,7 +57,7 @@
 				<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  END -->
 						
 				<!-- Contenue afficher par un echo d'un shortcode Start-->
-				<?php echo do_shortcode('[the-post-grid id="71" title="All post"]'); ?>
+				<?php echo do_shortcode('[the-post-grid id="55" title="All post"]'); ?>
 				<!-- Contenue afficher par un echo d'un shortcode END-->
 			</ul>
 		</aside>

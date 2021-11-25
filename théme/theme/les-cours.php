@@ -28,7 +28,7 @@ $custom_args2 = array(
             <?php if ($custom_query->have_posts()) : ?>
                 <div class="col-2"></div>
                 <div class="col-8 text-center">
-                <img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/Capture-decran-79.png" alt="" srcset="">
+                <img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/Capture-decran-79.png" alt="" srcset="">
                 <h2>POUR QUOI ?</h2>
                 <p>
                 Pour te motiver, pour travailler en groupe, pour suivre un coach, pour pratiquer de manière ludique et pour compléter ta séance de musculation. Tu as forcément une bonne raison de suivre les cours collectifs chez Fitness Park !
@@ -51,7 +51,7 @@ $custom_args2 = array(
             <?php if ($custom_query2->have_posts()) : ?>
                 <div class="col-2"></div>
                 <div class="col-8 text-center">
-                <img src="http://localhost/Ecf-Optimum-Fabrice/wordpress/wp-content/uploads/2021/11/maxresdefault.jpg" alt="" srcset="">
+                <img src="http://fabrice.devweb.cfa.nc/wordpress/wp-content/uploads/2021/11/maxresdefault.jpg" alt="" srcset="">
                 <h2>POUR QUOI ?</h2>
                 <p>
                 Le coach sportif particulier est avant tout là pour vous motiver. Il vous fera comprendre l’intérêt de continuer, ira chercher les arguments qui feront mouche chez vous pour vous pousser à continuer et atteindre vos objectifs.</p>
