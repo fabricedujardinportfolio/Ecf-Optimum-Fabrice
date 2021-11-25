@@ -1,7 +1,7 @@
 SITE : http://fabrice.devweb.cfa.nc/wordpress/ <br>
 Compte test :
 <br>
-id= jonathan$
+id= jonathan
 <br>
 mdp = mJsJnxgKm(OzeDzjhg4ST%tA
 # Ecf-Optimum-Fabrice
