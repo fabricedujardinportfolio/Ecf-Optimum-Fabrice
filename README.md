@@ -1,5 +1,8 @@
+SITE : http://fabrice.devweb.cfa.nc/wordpress/ <br>
 Compte test :
-id= jonathan
+<br>
+id= jonathan$
+<br>
 mdp = mJsJnxgKm(OzeDzjhg4ST%tA
 # Ecf-Optimum-Fabrice
 Ecf cci pour le plugin de réservation
